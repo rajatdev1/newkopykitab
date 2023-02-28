@@ -1,0 +1,317 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+  .gradimg img{
+    
+    width: 100% ;
+    height: 700px !important;
+     }
+
+
+
+.navbar{
+    background: linear-gradient(111.4deg, #f35230, #f38430);
+    position: absolute;
+    margin-top: -1319px;
+}
+
+#kopylogo{
+    height: 80px;
+    width: 200px;
+    /* background-color: aqua; */
+}
+
+.sechead{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-left: 170px !important;
+    /* background-color: white !important; */
+   
+}
+
+
+
+#dwitem{
+    padding: 0 20px ;
+}
+
+#dwitem2{
+    padding: 0 10px ;
+}
+
+#dwitem3{
+    padding: 0 10px ;
+}
+
+#dwitem4{
+    padding: 0 10px ;
+}
+
+#dwitem5{
+    padding: 0 10px ;
+}
+
+#dwitem6{
+    padding: 0 10px ;
+}
+#dwitem7{
+    padding: 0 10px ;
+}
+#dwitem8{
+    padding: 0 10px ;
+}
+
+
+
+
+ .dropdown a{
+    font-size: 18px !important;
+    /* font-weight: bolder !important; */
+    color: white !important;
+    
+}
+
+.dropdown1 a{
+    font-size: 15px !important;
+    color: rgb(5, 5, 5) !important;
+    
+}
+
+.dropdown-menu li a{
+    font-size: 15px !important;
+    color: rgb(5, 5, 5) !important;
+}
+
+
+
+.dropdown-item:hover{
+    background-color: rgb(250, 145, 163) !important;
+    
+}
+
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* .dropdown1{
+    z-index: -1;
+} */
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+     margin-left: 140px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 0.1px rgb(199, 196, 196) solid;
+    
+  }
+  
+  .dropdown-content1 a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content1 a:hover {
+    background-color: #ddd;
+}
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+    z-index: 1;
+}
+  
+
+
+                         /* context and image css starts */
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: -519px;
+    
+}
+
+.context{
+    width: 600px;
+    position: absolute;
+    margin-left: 1000px;
+}
+
+.context h1{
+    font-weight: bolder;
+    color: white;
+}
+
+.context p{
+    
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    
+}
+
+
+
+.input-group input{
+    text-align: center;
+}
+.input-group i{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    z-index: 1000;
+    min-height: 30px;
+    width: 40px;
+}
+
+.input-group button{
+    background: background: linear-gradient(111.4deg, #f35230, #f38430);
+    padding: 10px 30px;
+    border: 2px white solid;
+outline: none;
+color: #fff;
+
+}
+
+
+
+
+#whtelm2{
+    height: 450px;
+    width: 360px;
+    position: absolute;
+    margin-left: 1100px; 
+    margin-top: -60px;
+}
+
+#whtelm1{
+    height: 350px;
+    width: 280px;
+    position: absolute;
+    margin-left: 1145px; 
+    margin-top: 30px;
+}
+
+#girlimg{
+    height: 450px;
+    width: 340px;
+    position: absolute;
+    margin-left: 1105px; 
+    margin-top: -73px;
+}
+
+#notesimg{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin-left: 1095px; 
+    margin-top: 15px;
+}
+
+#mcqimg{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin-left: 1415px; 
+    margin-top: 80px;
+}
+#solveimg{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin-left: 1315px; 
+    margin-top: -85px;
+}
+
+
+
+
+                          /* logo section css starts */
+
+.allicon{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    margin-top: -220px;
+    margin-left: 270px;
+}
+
+.univericon{
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 120px ;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.univericon h5{
+    color: aqua;
+    font-weight: bold;
+}
+
+.univericon p{
+    margin-top: -10px;
+}
+
+
+.Usersicon{
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 120px ;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.Usersicon h5{
+    color: rgb(140, 0, 255);
+    font-weight: bold;
+
+}
+
+.Usersicon p{
+    margin-top: -10px;
+}
+
+
+
+
+.Publishicon{
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 120px ;
+    margin-left: 20px; 
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Publishicon h5{
+    color: rgb(51, 0, 255);
+    font-weight: bold;
+}
+
+.Publishicon p{
+    margin-top: -10px;
+}
+
+
+
+.univericon 
+
+  
